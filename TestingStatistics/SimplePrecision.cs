@@ -154,6 +154,7 @@ public class TestSimplePrecision_AllowableTotalErrorBased
 
     #endregion
 
+
     public static NintyFivePercentConfidenceInterval CalculateNintyFivePercentConfidenceInterval(double standardDeviation, int degressOfFreedom)
     {
         double alpha = 0.05;
@@ -165,7 +166,6 @@ public class TestSimplePrecision_AllowableTotalErrorBased
 
         return new NintyFivePercentConfidenceInterval(upperBound, lowerBound);
     }
-
 }
 
 public class TestSimplePrecision_VendorStandardDeviationBased

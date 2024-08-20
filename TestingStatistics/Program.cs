@@ -8,7 +8,10 @@ internal class Program
     static void Main(string[] args)
     {
         var simplePrecision = new SimplePrecision();
-        simplePrecision.RunTests();
+        //simplePrecision.RunTests();
+
+        var complex = new ComplexPrecision();
+        complex.CalculateVerificationValue();
 
     }
 }
