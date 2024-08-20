@@ -1,6 +1,6 @@
 ﻿بسم الله الرحمن الرحيم
 # EP Analyzer - Evaluation Protocol Analyzer
-[<img src="https://github.com/SwatInc/EPAnalyzer/blob/master/Resources/e_icon.svg" width="100">](#)
+[<img src="https://github.com/SwatInc/EPAnalyzer/blob/master/EPAnalyzer/Resources/e_icon.svg" width="100">](#)
 
 `EP Analyzer` can be used by clinical laboratories to generate EP reports.
 
