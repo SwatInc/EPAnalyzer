@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>EPAnalyzer.Statistics</RootNamespace>
+    <AssemblyName>EPAnalyzer.Statistics</AssemblyName>
+    <Description>Statistical formula engines for EP Evaluator-style clinical laboratory method evaluation modules (EP5, EP6, EP7, EP9, EP10, EP12, EP17, EP26, EP28/C28, GP10, INR, trueness and reference intervals).</Description>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MathNet.Numerics" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
